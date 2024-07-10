@@ -9,21 +9,50 @@
 /* Begin PBXBuildFile section */
 		3540DF3D2C357D1D00F3AE3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540DF3C2C357D1D00F3AE3C /* AppDelegate.swift */; };
 		3540DF3F2C357D1D00F3AE3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540DF3E2C357D1D00F3AE3C /* SceneDelegate.swift */; };
-		3540DF412C357D1D00F3AE3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540DF402C357D1D00F3AE3C /* ViewController.swift */; };
-		3540DF442C357D1D00F3AE3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3540DF422C357D1D00F3AE3C /* Main.storyboard */; };
+		3540DF412C357D1D00F3AE3C /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540DF402C357D1D00F3AE3C /* MainTabBarViewController.swift */; };
 		3540DF462C357D1F00F3AE3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3540DF452C357D1F00F3AE3C /* Assets.xcassets */; };
 		3540DF492C357D1F00F3AE3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3540DF472C357D1F00F3AE3C /* LaunchScreen.storyboard */; };
+		3540DF522C357DAC00F3AE3C /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540DF512C357DAC00F3AE3C /* APICaller.swift */; };
+		3540DF582C357E9E00F3AE3C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540DF572C357E9E00F3AE3C /* HomeViewController.swift */; };
+		3540DF5A2C357EEB00F3AE3C /* MapHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540DF592C357EEB00F3AE3C /* MapHeaderUIView.swift */; };
+		3540DF5D2C357F3300F3AE3C /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540DF5C2C357F3300F3AE3C /* CollectionViewTableViewCell.swift */; };
+		3540DF5F2C357F7800F3AE3C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540DF5E2C357F7800F3AE3C /* MapViewController.swift */; };
+		3540DF612C357F9400F3AE3C /* MetroMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540DF602C357F9400F3AE3C /* MetroMapViewController.swift */; };
+		3540DF632C357F9F00F3AE3C /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540DF622C357F9F00F3AE3C /* FavoritesViewController.swift */; };
+		3540DF662C3587CB00F3AE3C /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 3540DF652C3587CB00F3AE3C /* MapboxMaps */; };
+		3540DF6E2C35943C00F3AE3C /* bus_locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 3540DF6D2C35943B00F3AE3C /* bus_locations.json */; };
+		3540DF702C3595D800F3AE3C /* MapModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540DF6F2C3595D800F3AE3C /* MapModels.swift */; };
+		3540DF722C35E85B00F3AE3C /* metro_locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 3540DF712C35E85B00F3AE3C /* metro_locations.json */; };
+		3540DF742C3812A600F3AE3C /* BusStopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540DF732C3812A600F3AE3C /* BusStopViewController.swift */; };
+		3540DF762C38135F00F3AE3C /* BusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540DF752C38135F00F3AE3C /* BusViewController.swift */; };
+		3540DF782C3816DA00F3AE3C /* TransportModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540DF772C3816DA00F3AE3C /* TransportModels.swift */; };
+		35EE32C32C3EC24A00219F60 /* MetroStationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EE32C22C3EC24A00219F60 /* MetroStationViewController.swift */; };
+		35EE32C52C3F14A400219F60 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EE32C42C3F14A400219F60 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3540DF392C357D1D00F3AE3C /* Tbilisi Bus App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tbilisi Bus App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3540DF3C2C357D1D00F3AE3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3540DF3E2C357D1D00F3AE3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3540DF402C357D1D00F3AE3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3540DF432C357D1D00F3AE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3540DF402C357D1D00F3AE3C /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		3540DF452C357D1F00F3AE3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3540DF482C357D1F00F3AE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3540DF4A2C357D1F00F3AE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3540DF512C357DAC00F3AE3C /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		3540DF572C357E9E00F3AE3C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3540DF592C357EEB00F3AE3C /* MapHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapHeaderUIView.swift; sourceTree = "<group>"; };
+		3540DF5C2C357F3300F3AE3C /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		3540DF5E2C357F7800F3AE3C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3540DF602C357F9400F3AE3C /* MetroMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroMapViewController.swift; sourceTree = "<group>"; };
+		3540DF622C357F9F00F3AE3C /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		3540DF6D2C35943B00F3AE3C /* bus_locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bus_locations.json; sourceTree = "<group>"; };
+		3540DF6F2C3595D800F3AE3C /* MapModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModels.swift; sourceTree = "<group>"; };
+		3540DF712C35E85B00F3AE3C /* metro_locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = metro_locations.json; sourceTree = "<group>"; };
+		3540DF732C3812A600F3AE3C /* BusStopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopViewController.swift; sourceTree = "<group>"; };
+		3540DF752C38135F00F3AE3C /* BusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusViewController.swift; sourceTree = "<group>"; };
+		3540DF772C3816DA00F3AE3C /* TransportModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportModels.swift; sourceTree = "<group>"; };
+		35EE32C22C3EC24A00219F60 /* MetroStationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroStationViewController.swift; sourceTree = "<group>"; };
+		35EE32C42C3F14A400219F60 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3540DF662C3587CB00F3AE3C /* MapboxMaps in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +86,69 @@
 		3540DF3B2C357D1D00F3AE3C /* Tbilisi Bus App */ = {
 			isa = PBXGroup;
 			children = (
-				3540DF3C2C357D1D00F3AE3C /* AppDelegate.swift */,
+				3540DF502C357D9800F3AE3C /* Managers */,
+				3540DF552C357DD000F3AE3C /* Models */,
+				3540DF542C357DC700F3AE3C /* ViewModels */,
+				3540DF532C357DC000F3AE3C /* Views */,
+				3540DF562C357DDE00F3AE3C /* Controllers */,
 				3540DF3E2C357D1D00F3AE3C /* SceneDelegate.swift */,
-				3540DF402C357D1D00F3AE3C /* ViewController.swift */,
-				3540DF422C357D1D00F3AE3C /* Main.storyboard */,
+				3540DF3C2C357D1D00F3AE3C /* AppDelegate.swift */,
+				3540DF402C357D1D00F3AE3C /* MainTabBarViewController.swift */,
 				3540DF452C357D1F00F3AE3C /* Assets.xcassets */,
+				3540DF712C35E85B00F3AE3C /* metro_locations.json */,
+				3540DF6D2C35943B00F3AE3C /* bus_locations.json */,
 				3540DF472C357D1F00F3AE3C /* LaunchScreen.storyboard */,
 				3540DF4A2C357D1F00F3AE3C /* Info.plist */,
 			);
 			path = "Tbilisi Bus App";
+			sourceTree = "<group>";
+		};
+		3540DF502C357D9800F3AE3C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3540DF512C357DAC00F3AE3C /* APICaller.swift */,
+				35EE32C42C3F14A400219F60 /* Constants.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3540DF532C357DC000F3AE3C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3540DF592C357EEB00F3AE3C /* MapHeaderUIView.swift */,
+				3540DF5C2C357F3300F3AE3C /* CollectionViewTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3540DF542C357DC700F3AE3C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3540DF552C357DD000F3AE3C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3540DF6F2C3595D800F3AE3C /* MapModels.swift */,
+				3540DF772C3816DA00F3AE3C /* TransportModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3540DF562C357DDE00F3AE3C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3540DF572C357E9E00F3AE3C /* HomeViewController.swift */,
+				3540DF5E2C357F7800F3AE3C /* MapViewController.swift */,
+				3540DF602C357F9400F3AE3C /* MetroMapViewController.swift */,
+				35EE32C22C3EC24A00219F60 /* MetroStationViewController.swift */,
+				3540DF622C357F9F00F3AE3C /* FavoritesViewController.swift */,
+				3540DF732C3812A600F3AE3C /* BusStopViewController.swift */,
+				3540DF752C38135F00F3AE3C /* BusViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +167,9 @@
 			dependencies = (
 			);
 			name = "Tbilisi Bus App";
+			packageProductDependencies = (
+				3540DF652C3587CB00F3AE3C /* MapboxMaps */,
+			);
 			productName = "Tbilisi Bus App";
 			productReference = 3540DF392C357D1D00F3AE3C /* Tbilisi Bus App.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +198,9 @@
 				Base,
 			);
 			mainGroup = 3540DF302C357D1D00F3AE3C;
+			packageReferences = (
+				3540DF642C3587CB00F3AE3C /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+			);
 			productRefGroup = 3540DF3A2C357D1D00F3AE3C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +216,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3540DF492C357D1F00F3AE3C /* LaunchScreen.storyboard in Resources */,
+				3540DF6E2C35943C00F3AE3C /* bus_locations.json in Resources */,
 				3540DF462C357D1F00F3AE3C /* Assets.xcassets in Resources */,
-				3540DF442C357D1D00F3AE3C /* Main.storyboard in Resources */,
+				3540DF722C35E85B00F3AE3C /* metro_locations.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +229,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3540DF412C357D1D00F3AE3C /* ViewController.swift in Sources */,
+				3540DF582C357E9E00F3AE3C /* HomeViewController.swift in Sources */,
+				3540DF412C357D1D00F3AE3C /* MainTabBarViewController.swift in Sources */,
 				3540DF3D2C357D1D00F3AE3C /* AppDelegate.swift in Sources */,
+				3540DF5D2C357F3300F3AE3C /* CollectionViewTableViewCell.swift in Sources */,
+				3540DF612C357F9400F3AE3C /* MetroMapViewController.swift in Sources */,
 				3540DF3F2C357D1D00F3AE3C /* SceneDelegate.swift in Sources */,
+				3540DF5A2C357EEB00F3AE3C /* MapHeaderUIView.swift in Sources */,
+				35EE32C52C3F14A400219F60 /* Constants.swift in Sources */,
+				3540DF782C3816DA00F3AE3C /* TransportModels.swift in Sources */,
+				35EE32C32C3EC24A00219F60 /* MetroStationViewController.swift in Sources */,
+				3540DF522C357DAC00F3AE3C /* APICaller.swift in Sources */,
+				3540DF632C357F9F00F3AE3C /* FavoritesViewController.swift in Sources */,
+				3540DF742C3812A600F3AE3C /* BusStopViewController.swift in Sources */,
+				3540DF762C38135F00F3AE3C /* BusViewController.swift in Sources */,
+				3540DF5F2C357F7800F3AE3C /* MapViewController.swift in Sources */,
+				3540DF702C3595D800F3AE3C /* MapModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3540DF422C357D1D00F3AE3C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3540DF432C357D1D00F3AE3C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3540DF472C357D1F00F3AE3C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +393,9 @@
 				INFOPLIST_FILE = "Tbilisi Bus App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,9 +421,9 @@
 				INFOPLIST_FILE = "Tbilisi Bus App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +459,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3540DF642C3587CB00F3AE3C /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3540DF652C3587CB00F3AE3C /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3540DF642C3587CB00F3AE3C /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3540DF312C357D1D00F3AE3C /* Project object */;
 }

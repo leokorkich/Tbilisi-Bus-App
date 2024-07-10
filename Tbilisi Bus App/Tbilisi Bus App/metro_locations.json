@@ -2,187 +2,164 @@
     "Station": [
           {
               "id": "1:metro_1_1",
-              "code": null,
-              "name": "M/S Akhmeteli Theatre",
-              "lat": 41.792064,
-              "lon": 44.815908,
-              "vehicleMode": "SUBWAY"
+              "line": 1,
+              "name": "Akhmeteli Theatre",
+              "latitude": 41.792064,
+              "longitude": 44.815908
           },
           {
               "id": "1:metro_1_2",
-              "code": null,
-              "name": "M/S Sarajisvhili",
-              "lat": 41.783583,
-              "lon": 44.799524,
-              "vehicleMode": "SUBWAY"
+              "line": 1,
+              "name": "Sarajisvhili",
+              "latitude": 41.783583,
+              "longitude": 44.799524
           },
           {
               "id": "1:metro_1_3",
-              "code": null,
-              "name": "M/S Guramishvili",
-              "lat": 41.77509,
-              "lon": 44.795235,
-              "vehicleMode": "SUBWAY"
+              "line": 1,
+              "name": "Guramishvili",
+              "latitude": 41.77509,
+              "longitude": 44.795235
           },
           {
               "id": "1:metro_1_4",
-              "code": null,
-              "name": "M/S Grmaghele",
-              "lat": 41.765602,
-              "lon": 44.790287,
-              "vehicleMode": "SUBWAY"
+              "line": 1,
+              "name": "Grmaghele",
+              "latitude": 41.765602,
+              "longitude": 44.790287
           },
           {
               "id": "1:metro_1_5",
-              "code": null,
-              "name": "M/S Didube",
-              "lat": 41.749767,
-              "lon": 44.779989,
-              "vehicleMode": "SUBWAY"
+              "line": 1,
+              "name": "Didube",
+              "latitude": 41.749767,
+              "longitude": 44.779989
           },
           {
               "id": "1:metro_1_6",
-              "code": null,
-              "name": "M/S Gotsiridze",
-              "lat": 41.742954,
-              "lon": 44.784011,
-              "vehicleMode": "SUBWAY"
+              "line": 1,
+              "name": "Gotsiridze",
+              "latitude": 41.742954,
+              "longitude": 44.784011
           },
           {
               "id": "1:metro_1_7",
-              "code": null,
-              "name": "M/S Nadzaladevi",
-              "lat": 41.732652,
-              "lon": 44.796344,
-              "vehicleMode": "SUBWAY"
+              "line": 1,
+              "name": "Nadzaladevi",
+              "latitude": 41.732652,
+              "longitude": 44.796344
           },
           {
               "id": "1:metro_1_8",
-              "code": null,
-              "name": "M/S Station Square 1",
-              "lat": 41.722098,
-              "lon": 44.797739,
-              "vehicleMode": "SUBWAY"
+              "line": 1,
+              "name": "Station Square 1",
+              "latitude": 41.722098,
+              "longitude": 44.797739
           },
           {
               "id": "1:metro_1_9",
-              "code": null,
-              "name": "M/S Marjanishvili",
-              "lat": 41.709931,
-              "lon": 44.797509,
-              "vehicleMode": "SUBWAY"
+              "line": 1,
+              "name": "Marjanishvili",
+              "latitude": 41.709931,
+              "longitude": 44.797509
           },
           {
               "id": "1:metro_1_10",
-              "code": null,
-              "name": "M/S Rustaveli",
-              "lat": 41.704138,
-              "lon": 44.789613,
-              "vehicleMode": "SUBWAY"
+              "line": 1,
+              "name": "Rustaveli",
+              "latitude": 41.704138,
+              "longitude": 44.789613
           },
           {
               "id": "1:metro_1_11",
-              "code": null,
-              "name": "M/S Liberty Square",
-              "lat": 41.695003,
-              "lon": 44.799919,
-              "vehicleMode": "SUBWAY"
+              "line": 1,
+              "name": "Liberty Square",
+              "latitude": 41.695003,
+              "longitude": 44.799919
           },
           {
               "id": "1:metro_1_12",
-              "code": null,
-              "name": "M/S Avlabari",
-              "lat": 41.692583,
-              "lon": 44.815217,
-              "vehicleMode": "SUBWAY"
+              "line": 1,
+              "name": "Avlabari",
+              "latitude": 41.692583,
+              "longitude": 44.815217
           },
           {
               "id": "1:metro_1_13",
-              "code": null,
-              "name": "M/S 300 Aragveli",
-              "lat": 41.687845,
-              "lon": 44.82711,
-              "vehicleMode": "SUBWAY"
+              "line": 1,
+              "name": "300 Aragveli",
+              "latitude": 41.687845,
+              "longitude": 44.82711
           },
           {
               "id": "1:metro_1_14",
-              "code": null,
-              "name": "M/S Isani",
-              "lat": 41.686632,
-              "lon": 44.84084,
-              "vehicleMode": "SUBWAY"
+              "line": 1,
+              "name": "Isani",
+              "latitude": 41.686632,
+              "longitude": 44.84084
           },
           {
               "id": "1:metro_1_15",
-              "code": null,
-              "name": "M/S Samgori",
-              "lat": 41.68602,
-              "lon": 44.855694,
-              "vehicleMode": "SUBWAY"
+              "line": 1,
+              "name": "Samgori",
+              "latitude": 41.68602,
+              "longitude": 44.855694
           },
           {
               "id": "1:metro_1_16",
-              "code": null,
-              "name": "M/S Varketili",
-              "lat": 41.69159,
-              "lon": 44.86989,
-              "vehicleMode": "SUBWAY"
+              "line": 1,
+              "name": "Varketili",
+              "latitude": 41.69159,
+              "longitude": 44.86989
           },
           {
               "id": "1:metro_2_1",
-              "code": null,
-              "name": "M/S Station Square 2",
-              "lat": 41.722498,
-              "lon": 44.795765,
-              "vehicleMode": "SUBWAY"
+              "line": 2,
+              "name": "Station Square 2",
+              "latitude": 41.722498,
+              "longitude": 44.795765
           },
           {
               "id": "1:metro_2_2",
-              "code": null,
-              "name": "M/S Tsereteli",
-              "lat": 41.727011,
-              "lon": 44.787834,
-              "vehicleMode": "SUBWAY"
+              "line": 2,
+              "name": "Tsereteli",
+              "latitude": 41.727011,
+              "longitude": 44.787834
           },
           {
               "id": "1:metro_2_3",
-              "code": null,
-              "name": "M/S Techinacal University",
-              "lat": 41.721228,
-              "lon": 44.775093,
-              "vehicleMode": "SUBWAY"
+              "line": 2,
+              "name": "Technical University",
+              "latitude": 41.721228,
+              "longitude": 44.775093
           },
           {
               "id": "1:metro_2_4",
-              "code": null,
-              "name": "M/S Medical University",
-              "lat": 41.727305,
-              "lon": 44.762845,
-              "vehicleMode": "SUBWAY"
+              "line": 2,
+              "name": "Medical University",
+              "latitude": 41.727305,
+              "longitude": 44.762845
           },
           {
               "id": "1:metro_2_5",
-              "code": null,
-              "name": "M/S Delisi",
-              "lat": 41.725472,
-              "lon": 44.744649,
-              "vehicleMode": "SUBWAY"
+              "line": 2,
+              "name": "Delisi",
+              "latitude": 41.725472,
+              "longitude": 44.744649
           },
           {
               "id": "1:metro_2_6",
-              "code": null,
-              "name": "M/S Vazha Pshavela",
-              "lat": 41.724269,
-              "lon": 44.730829,
-              "vehicleMode": "SUBWAY"
+              "line": 2,
+              "name": "Vazha Pshavela",
+              "latitude": 41.724269,
+              "longitude": 44.730829
           },
           {
               "id": "1:metro_2_7",
-              "code": null,
-              "name": "M/S State University",
-              "lat": 41.722777,
-              "lon": 44.717047,
-              "vehicleMode": "SUBWAY"
+              "line": 2,
+              "name": "State University",
+              "latitude": 41.722777,
+              "longitude": 44.717047
           }
     ]
 }
